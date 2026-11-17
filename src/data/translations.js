@@ -2,68 +2,119 @@ export const translations = {
   uz: {
     nav: {
       about: "Haqida",
+      experience: "Tajriba",
       skills: "Ko'nikmalar",
       services: "Xizmatlar",
       projects: "Loyihalar",
       contact: "Aloqa"
     },
     hero: {
-      status: "Yangi loyihalar va ish uchun ochiq",
+      status: "Yangi loyihalar va hamkorlik uchun ochiq",
       greeting: "Salom, men",
-      name: "Dilshodbek",
-      title: "Full-Stack Software Engineer",
-      subtitle: "Zamonaviy, xavfsiz va yuqori unumdorlikka ega web ilovalar yaratuvchi Full-Stack dasturchi",
-      bio: "Men React, Node.js, Express, MongoDB/PostgreSQL va bulutli texnologiyalar yordamida kengayuvchan (scalable) va qulay veb tizimlarni loyihalashga ixtisoslashganman. Har bir loyihada toza arxitektura va yuqori tezlikka alohida urg'u beraman.",
+      name: "Dilshodbek Raxmonjonov",
+      title: "Full-Stack & Backend Dasturchi",
+      subtitle: "Python/Django, React/Next.js va AI texnologiyalari asosida mustahkam web hamda mobil tizimlar yarataman",
+      bio: "Asosiy yo'nalishim — backend arxitektura va ma'lumotlar bazasi, shuningdek zamonaviy frontend hamda React Native ilovalarini ham to'liq yarata olaman. IT-Park stajirovkasi davomida 6 ta yuqori sifatli full-stack veb-sayt ishlab chiqqanman va loyihalarni kuchaytirishda AI vositalaridan unumli foydalanaman.",
       viewProjects: "Loyihalarni ko'rish",
       contactMe: "Bog'lanish",
       metrics: {
         experience: "Yillik tajriba",
-        projects: "Muvaffaqiyatli loyiha",
-        satisfaction: "Qoniqish darajasi",
+        projects: "Yaratilgan loyihalar",
+        satisfaction: "Sifat darajasi",
         location: "Manzil",
-        locationVal: "O'zbekiston"
+        locationVal: "Namangan, UZ"
       }
+    },
+    experience: {
+      badge: "Tajriba va Ta'lim",
+      title: "Karyera va O'qish Yo'li",
+      workTitle: "Ish tajribasi",
+      eduTitle: "Ta'lim va Sertifikat",
+      langTitle: "Tillar",
+      items: [
+        {
+          type: "work",
+          role: "Web Developer (Stajyor)",
+          org: "IT-Park — Namangan, O'zbekiston",
+          period: "2026, May – Iyun",
+          description: "Bir oylik stajirovka davomida 6 ta to'liq funksional va sifatli full-stack veb-saytlarni loyihalash va ishlab chiqishda qatnashdim."
+        },
+        {
+          type: "edu",
+          role: "Web Developer (Backend & Frontend)",
+          org: "IT-Pixel — Yangiqo'rg'on, Namangan",
+          period: "2025, Fevral – May | Sertifikat: 3-fevral, 2026",
+          description: "HTML, CSS, JavaScript, Bootstrap hamda Python, Django va PostgreSQL bo'yicha chuqurlashtirilgan ta'lim va rasmiy sertifikat."
+        }
+      ],
+      languages: [
+        { name: "O'zbek tili", level: "Ona tili" },
+        { name: "Rus tili", level: "Erkin (Fluent)" },
+        { name: "Ingliz tili", level: "O'rta (Intermediate)" }
+      ]
     },
     services: {
       badge: "Xizmatlar",
       title: "Nimalar taklif qila olaman?",
       items: [
         {
-          title: "Frontend Development",
-          description: "Zamonaviy, tez ishlaydigan va barcha qurilmalarga moslashuvchan (responsive) chiroyli interfeyslarni React yordamida yaratish."
+          title: "Backend & API Arxitektura",
+          description: "Python, Django REST Framework, Node.js/Express hamda PostgreSQL yordamida xavfsiz, tez va kengayuvchan API tizimlar."
         },
         {
-          title: "Backend & API Architecture",
-          description: "Ishonchli, tez va xavfsiz RESTful/Serverless API lar hamda ma'lumotlar bazasi strukturalarini barpo etish."
+          title: "Full-Stack Veb Ilovalar",
+          description: "Next.js, React, Prisma va ma'lumotlar bazasi bilan g'oyadan tortib deploygacha bo'lgan to'liq sikldagi veb-platformalar."
         },
         {
-          title: "Full-Stack Web Apps",
-          description: "G'oyadan boshlab to'liq ishga tushirish (Deploy)gacha bo'lgan to'liq sikldagi web-loyihalarni ishlab chiqish."
+          title: "Frontend & Mobil Ilovalar",
+          description: "Barcha qurilmalarga moslashuvchan web interfeyslar va React Native (Expo) orqali Android/iOS mobil ilovalar yaratish."
         },
         {
-          title: "Deployment & Optimization",
-          description: "Veb-saytlarni Netlify/Vercel platformalariga joylash, SEO va yuklanish tezligini (performance) yuqori darajaga olib chiqish."
+          title: "AI Integratsiya & Deploy",
+          description: "Loyihalarga sun'iy intellekt imkoniyatlarini qo'shish, avtomatlashtirish va Netlify/GitHub orqali barqaror ishga tushirish."
         }
       ]
     },
     skills: {
       badge: "Texnik Stack",
       title: "Ko'nikmalar va Vositalar",
-      frontendTitle: "Frontend Texnologiyalari",
-      backendTitle: "Backend & Database",
-      toolsTitle: "DevOps & Vositalar"
+      backendTitle: "Backend & Ma'lumotlar bazasi",
+      frontendTitle: "Frontend & Mobil",
+      toolsTitle: "AI, Testlash & DevOps"
     },
     projects: {
       badge: "Portfolio",
-      title: "Mening So'nggi Loyihalarim",
-      subtitle: "Real muammolarni hal qiluvchi amaliy full-stack yechimlar",
+      title: "Mening Real Loyihalarim",
+      subtitle: "Amaliy muammolarni hal qiluvchi full-stack, backend va mobil loyihalarim",
       viewCode: "GitHub kodini ko'rish",
-      viewLive: "Jonli ko'rish"
+      viewLive: "Jonli ko'rish",
+      items: {
+        "3talab": {
+          title: "3Talab — SAT & IELTS Ta'lim Platformasi",
+          description: "SAT, IELTS va oliygohga kirishga tayyorgarlik uchun yaratilgan tinch va tizimli o'quv platformasi. Next.js 15, Prisma, NextAuth, Edge TTS va Playwright E2E testlari bilan."
+        },
+        "silkway": {
+          title: "Silkway Express — E-Commerce & Logistika",
+          description: "Xitoydan O'zbekistonga elektron tijorat va logistika platformasi. Django REST Framework API serveri va 12 sahifali React + Vite veb-ilovasidan iborat."
+        },
+        "hibon": {
+          title: "Hibon — Kun Tartibi Mobil Ilovasi",
+          description: "React Native va Expo da yozilgan Android/iOS ilovasi. Animatsiyali progress halqasi, haftalik ko'rinish va oflayn AsyncStorage saqlash tizimiga ega."
+        },
+        "resturan": {
+          title: "Resturan — Restoran Boshqaruv Tizimi",
+          description: "Python va Django asosida qurilgan restoran menyusi, buyurtmalar va admin boshqaruv paneliga ega full-stack veb-ilova."
+        },
+        "tilgo": {
+          title: "TilGo — Interaktiv Til O'rganish Platformasi",
+          description: "Backend va frontend qismlardan tashkil topgan zamonaviy til o'rganish va o'quv missiyalari veb-loyihasi."
+        }
+      }
     },
     contact: {
       badge: "Bog'lanish",
       title: "Birgalikda ajoyib loyiha yaratamizmi?",
-      subtitle: "Savollaringiz, takliflaringiz yoki yangi g'oyalaringiz bo'lsa, xabar qoldiring. Men tez fursatda sizga javob beraman!",
+      subtitle: "Savollaringiz, loyiha buyurtmangiz yoki ish taklifingiz bo'lsa, xabar qoldiring. Tez fursatda javob beraman!",
       form: {
         nameLabel: "Ismingiz",
         namePlaceholder: "Ismingizni kiriting...",
@@ -86,68 +137,119 @@ export const translations = {
   en: {
     nav: {
       about: "About",
+      experience: "Experience",
       skills: "Skills",
       services: "Services",
       projects: "Projects",
       contact: "Contact"
     },
     hero: {
-      status: "Available for new projects & full-time roles",
+      status: "Open to new projects & full-time roles",
       greeting: "Hello, I am",
-      name: "Dilshodbek",
-      title: "Full-Stack Software Engineer",
-      subtitle: "Full-Stack Developer crafting modern, secure, and high-performance web applications",
-      bio: "I specialize in building scalable, user-centric web applications with React, Node.js, Express, MongoDB/PostgreSQL, and cloud technologies. Focused on clean architecture and optimal performance.",
+      name: "Dilshodbek Raxmonjonov",
+      title: "Full-Stack & Backend Developer",
+      subtitle: "Building reliable web and mobile systems with Python/Django, React/Next.js, and AI tools",
+      bio: "I am primarily a backend developer with solid frontend and mobile development skills, capable of delivering complete full-stack applications. During my internship at IT-Park, I built 6 polished full-stack websites and actively leverage AI to create stronger, smarter products.",
       viewProjects: "View Projects",
       contactMe: "Contact Me",
       metrics: {
         experience: "Years of Experience",
-        projects: "Projects Completed",
-        satisfaction: "Satisfaction Rate",
+        projects: "Projects Built",
+        satisfaction: "Quality Standard",
         location: "Location",
-        locationVal: "Uzbekistan"
+        locationVal: "Namangan, UZ"
       }
+    },
+    experience: {
+      badge: "Experience & Education",
+      title: "Background & Credentials",
+      workTitle: "Work Experience",
+      eduTitle: "Education & Certificate",
+      langTitle: "Languages",
+      items: [
+        {
+          type: "work",
+          role: "Web Developer (Intern)",
+          org: "IT-Park — Namangan, Uzbekistan",
+          period: "May – June 2026",
+          description: "Built 6 full-stack websites to a polished, high-quality standard during an intensive 1-month internship."
+        },
+        {
+          type: "edu",
+          role: "Web Developer (Backend & Frontend)",
+          org: "IT-Pixel — Yangiqo'rg'on, Namangan",
+          period: "Feb – May 2025 | Certificate: Feb 3, 2026",
+          description: "Completed comprehensive training in HTML, CSS, JavaScript, Bootstrap, Python, Django, and PostgreSQL."
+        }
+      ],
+      languages: [
+        { name: "Uzbek", level: "Native" },
+        { name: "Russian", level: "Fluent" },
+        { name: "English", level: "Intermediate" }
+      ]
     },
     services: {
       badge: "Services",
-      title: "What I Can Offer?",
+      title: "What I Can Offer",
       items: [
         {
-          title: "Frontend Development",
-          description: "Crafting modern, blazing-fast, and responsive interfaces with React and intuitive user experiences."
-        },
-        {
           title: "Backend & API Architecture",
-          description: "Building reliable, scalable RESTful/Serverless APIs and database schemas with robust data handling."
+          description: "Designing secure, scalable RESTful APIs and database schemas with Python, Django REST Framework, Node.js, and PostgreSQL."
         },
         {
           title: "Full-Stack Web Apps",
-          description: "End-to-end development of web solutions from conceptual design to production deployment."
+          description: "End-to-end web development using Next.js, React, Prisma, and authentication systems from concept to production."
         },
         {
-          title: "Deployment & Optimization",
-          description: "Continuous deployment to Netlify/Vercel platforms, advanced SEO, and web performance optimization."
+          title: "Frontend & Mobile UI",
+          description: "Crafting responsive web interfaces and cross-platform Android/iOS mobile apps with React Native and Expo."
+        },
+        {
+          title: "AI Integration & Deployment",
+          description: "Integrating AI capabilities into applications and deploying reliably via GitHub, Netlify, and automated testing."
         }
       ]
     },
     skills: {
       badge: "Tech Stack",
       title: "Skills & Technologies",
-      frontendTitle: "Frontend Technologies",
-      backendTitle: "Backend & Database",
-      toolsTitle: "DevOps & Tools"
+      backendTitle: "Backend & Databases",
+      frontendTitle: "Frontend & Mobile",
+      toolsTitle: "AI, Testing & DevOps"
     },
     projects: {
       badge: "Portfolio",
-      title: "Featured Projects",
-      subtitle: "Practical full-stack solutions solving real-world challenges",
+      title: "Featured Real Projects",
+      subtitle: "Practical full-stack, backend, and mobile applications I have built",
       viewCode: "View GitHub Code",
-      viewLive: "Live Preview"
+      viewLive: "Live Preview",
+      items: {
+        "3talab": {
+          title: "3Talab — SAT & IELTS Learning Platform",
+          description: "A calm, structured learning environment for SAT, IELTS, and university entrance preparation built with Next.js 15, Prisma, NextAuth, Edge TTS, and Playwright."
+        },
+        "silkway": {
+          title: "Silkway Express — E-Commerce & Logistics",
+          description: "Cross-border e-commerce and logistics platform connecting China and Uzbekistan, powered by Django REST Framework and a 12-page React + Vite frontend."
+        },
+        "hibon": {
+          title: "Hibon — Daily Schedule Mobile App",
+          description: "Cross-platform React Native + Expo app for managing daily routines with an animated SVG progress ring, weekly strip, and offline AsyncStorage persistence."
+        },
+        "resturan": {
+          title: "Resturan — Restaurant Management App",
+          description: "Full-stack restaurant and digital menu management system built with Python, Django, Bootstrap, and SQLite/PostgreSQL."
+        },
+        "tilgo": {
+          title: "TilGo — Interactive Language Platform",
+          description: "Full-stack language learning and mission-based education platform featuring separate backend API and frontend web client."
+        }
+      }
     },
     contact: {
       badge: "Get in Touch",
       title: "Let's build something extraordinary together!",
-      subtitle: "Have a project in mind, questions, or an opportunity? Drop me a message and I'll respond promptly!",
+      subtitle: "Have a project in mind, questions, or a job opportunity? Drop me a message and I'll respond promptly!",
       form: {
         nameLabel: "Your Name",
         namePlaceholder: "Enter your full name...",
@@ -170,6 +272,7 @@ export const translations = {
   ru: {
     nav: {
       about: "О себе",
+      experience: "Опыт",
       skills: "Навыки",
       services: "Услуги",
       projects: "Проекты",
@@ -178,60 +281,110 @@ export const translations = {
     hero: {
       status: "Открыт для новых проектов и предложений",
       greeting: "Привет, я",
-      name: "Дильшодбек",
-      title: "Full-Stack Software Engineer",
-      subtitle: "Full-Stack разработчик современных, защищенных и высокопроизводительных веб-приложений",
-      bio: "Специализируюсь на создании масштабируемых и удобных веб-приложений с использованием React, Node.js, Express, MongoDB/PostgreSQL и облачных технологий. Уделяю внимание чистой архитектуре и скорости.",
+      name: "Дильшодбек Рахмонжонов",
+      title: "Full-Stack & Backend Разработчик",
+      subtitle: "Создаю надежные веб и мобильные системы на Python/Django, React/Next.js и AI-технологиях",
+      bio: "Моя основная специализация — backend-разработка и базы данных, при этом я уверенно создаю современный frontend и мобильные приложения на React Native. Во время стажировки в IT-Park разработал 6 полноценных full-stack сайтов и активно применяю AI для усиления проектов.",
       viewProjects: "Смотреть проекты",
       contactMe: "Связаться",
       metrics: {
         experience: "Лет опыта",
-        projects: "Успешных проектов",
+        projects: "Проектов создано",
         satisfaction: "Уровень качества",
         location: "Локация",
-        locationVal: "Узбекистан"
+        locationVal: "Наманган, UZ"
       }
+    },
+    experience: {
+      badge: "Опыт и Образование",
+      title: "Карьера и Обучение",
+      workTitle: "Опыт работы",
+      eduTitle: "Образование и Сертификат",
+      langTitle: "Языки",
+      items: [
+        {
+          type: "work",
+          role: "Web Разработчик (Стажер)",
+          org: "IT-Park — Наманган, Узбекистан",
+          period: "Май – Июнь 2026",
+          description: "За время стажировки разработал 6 качественных и полностью функциональных full-stack веб-сайтов."
+        },
+        {
+          type: "edu",
+          role: "Web Разработчик (Backend & Frontend)",
+          org: "IT-Pixel — Янгикурган, Наманган",
+          period: "Фев – Май 2025 | Сертификат: 3 февраля 2026",
+          description: "Прошел обучение по HTML, CSS, JavaScript, Bootstrap, а также Python, Django и PostgreSQL."
+        }
+      ],
+      languages: [
+        { name: "Узбекский", level: "Родной" },
+        { name: "Русский", level: "Свободно (Fluent)" },
+        { name: "Английский", level: "Средний (Intermediate)" }
+      ]
     },
     services: {
       badge: "Услуги",
       title: "Что я могу предложить?",
       items: [
         {
-          title: "Frontend Разработка",
-          description: "Создание быстрых, адаптивных и удобных пользовательских интерфейсов на React с современным дизайном."
-        },
-        {
           title: "Backend & API Архитектура",
-          description: "Проектирование надежных RESTful/Serverless API и структур баз данных с защитой данных."
+          description: "Проектирование надежных RESTful API и баз данных на Python, Django REST Framework, Node.js и PostgreSQL."
         },
         {
           title: "Full-Stack Веб-приложения",
-          description: "Полный цикл разработки веб-решений: от идеи и логики до финального запуска и поддержки."
+          description: "Полный цикл разработки на Next.js, React, Prisma и системах аутентификации — от идеи до продакшена."
         },
         {
-          title: "Деплой и Оптимизация",
-          description: "Развертывание сайтов на Netlify/Vercel, базовая SEO оптимизация и ускорение работы сайта."
+          title: "Frontend и Мобильные приложения",
+          description: "Адаптивные веб-интерфейсы и кроссплатформенные приложения для Android/iOS на React Native (Expo)."
+        },
+        {
+          title: "AI Интеграция и Деплой",
+          description: "Внедрение AI-возможностей в проекты, автоматизация тестирования и публикация на Netlify/GitHub."
         }
       ]
     },
     skills: {
       badge: "Стек технологий",
       title: "Навыки и Инструменты",
-      frontendTitle: "Frontend Технологии",
       backendTitle: "Backend & Базы данных",
-      toolsTitle: "DevOps & Инструменты"
+      frontendTitle: "Frontend & Mobile",
+      toolsTitle: "AI, Тестирование & DevOps"
     },
     projects: {
       badge: "Портфолио",
-      title: "Мои последние проекты",
-      subtitle: "Практические full-stack решения для реальных задач",
+      title: "Мои реальные проекты",
+      subtitle: "Практические full-stack, backend и мобильные решения",
       viewCode: "Посмотреть код на GitHub",
-      viewLive: "Открыть сайт"
+      viewLive: "Открыть сайт",
+      items: {
+        "3talab": {
+          title: "3Talab — Образовательная платформа SAT & IELTS",
+          description: "Платформа для подготовки к SAT, IELTS и поступлению в вузы на Next.js 15, Prisma, NextAuth, Edge TTS и Playwright."
+        },
+        "silkway": {
+          title: "Silkway Express — E-Commerce и Логистика",
+          description: "Платформа электронной коммерции и логистики из Китая в Узбекистан на базе Django REST Framework и 12-страничного React + Vite клиента."
+        },
+        "hibon": {
+          title: "Hibon — Мобильный трекер распорядка дня",
+          description: "Мобильное приложение на React Native и Expo с анимированным кольцом прогресса, недельным календарем и офлайн-хранением в AsyncStorage."
+        },
+        "resturan": {
+          title: "Resturan — Система управления рестораном",
+          description: "Full-stack веб-приложение на Python и Django для управления меню ресторана, заказами и админ-панелью."
+        },
+        "tilgo": {
+          title: "TilGo — Интерактивная языковая платформа",
+          description: "Full-stack образовательный проект для изучения языков с разделением на backend API и frontend веб-приложение."
+        }
+      }
     },
     contact: {
       badge: "Связаться",
       title: "Создадим отличный проект вместе?",
-      subtitle: "Есть проект, вопросы или интересное предложение? Напишите мне, и я оперативно свяжусь с вами!",
+      subtitle: "Есть проект, вопросы или предложение о работе? Напишите мне, и я оперативно отвечу!",
       form: {
         nameLabel: "Ваше имя",
         namePlaceholder: "Введите ваше имя...",
